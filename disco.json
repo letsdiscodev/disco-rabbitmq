@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "image": "rabbitmq:4.0.5-management",
+            "port": 15672,
+            "exposedInternally": true,
+            "volumes": [
+                {
+                    "name": "rabbitmq-data",
+                    "destinationPath": "/var/lib/rabbitmq"
+                }
+            ]
+        }
+    }
+}
