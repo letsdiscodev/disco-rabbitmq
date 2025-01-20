@@ -1,6 +1,6 @@
 # RabbitMQ on Disco
 
-Fork this repository. Create a projet on Disco, and set the environment variables while creating the project (not after).
+Fork this repository. Create a project on Disco, and set the environment variables while creating the project (not after).
 
 ## Environment Variables
 
