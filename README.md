@@ -6,7 +6,8 @@ Fork this repository. Create a project on Disco, and set the environment variabl
 
 ### RABBITMQ_NODENAME
 
-Give it a unique name that represents the project you're working on. E.g. `myproject1`. This is used internally by RabbitMQ to store data in a consistent directory that won't change over time.
+E.g. `rabbit@<project name>-web`. This is used internally by RabbitMQ to store data in a consistent directory that won't change over time.
+It's important to use `<project name>-web` for the hostname, e.g. `rabbit@rabbitmq-example-web` where `rabbitmq-example` is the project name.
 
 ### RABBITMQ_DEFAULT_USER
 
