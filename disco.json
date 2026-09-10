@@ -2,7 +2,7 @@
     "version": "1.0",
     "services": {
         "web": {
-            "image": "rabbitmq:4.0.5-management",
+            "image": "rabbitmq:4.3.4-management",
             "port": 15672,
             "exposedInternally": true,
             "volumes": [
